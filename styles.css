@@ -154,9 +154,9 @@ a:hover {
     }
 
  #wrapper {
-    margin: 2.5vh auto;
+    margin: 5vh auto;
     height: auto;
-    width: 92%;
+    width: 80%;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
     flex-wrap: wrap;
@@ -165,21 +165,19 @@ a:hover {
     }
 
     #left-container {
-        height: 400px;
+        margin-top: 4px;
         width: 100%;
-        flex-direction: column;
+        height: auto;
+        flex-direction: column-reverse;
     }
 
     #about {
-        flex: 0.1;
-    }
-
-    #about:hover {
-        flex-grow: 1;
+        flex: 1;
+        margin-left: 0;
     }
 
     #contact {
-        padding: 5px 100px;
+        padding: 5px 80px;
     }
 
     #right-container {
@@ -192,7 +190,7 @@ a:hover {
     .item {
         flex: 1;
         margin: 0 4px 0 0;
-        overflow-x: scroll;
+        min-width: 80%;
     }
 
     #box-3 {
