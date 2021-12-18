@@ -195,13 +195,11 @@ a:hover {
     #box-3 {
         flex: 0.2;
         margin-top: 8px;
-        border-radius: 25px;
         overflow: scroll;
     }
 
     #box-4 {
         overflow: scroll;
-        border-radius: 25px;
     }
 }
 
